@@ -15,3 +15,27 @@ body {
     padding: 0;
     background: var(--cor-de-fundo);
 }
+
+header {
+    background-color: var(--cabecalho);
+    color: var(--cor-de-texto);
+    padding: 20px 0;
+    text-align: center;
+    color: var(--cor-de-texto);
+}
+
+main {
+    padding: 20px;
+    color: var(--cor-de-texto);
+}
+
+img{
+    max-width: 300px;
+    max-height: 300px;
+    width: auto;
+    height: auto;
+}
+
+.imagem{
+    text-align: center;
+}
