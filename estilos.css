@@ -29,6 +29,17 @@ main {
     color: var(--cor-de-texto);
 }
 
+section {
+    margin-bottom: 40px;
+    font-size: large;
+}
+
+section h2 {
+    color: var(--cor-de-texto);
+    border-bottom: 5px solid var(--cor-de-borda);
+    padding-bottom: 10px;
+}
+
 img{
     max-width: 300px;
     max-height: 300px;
