@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
 
 :root{
-    --cabecalho: #a7ffff;
+    --cabecalho: #b9ffff;
     --cor-de-fundo: #daffff;
     --cor-de-texto: rgb(0, 0, 0);
     --cor-de-borda: rgb(0, 0, 0);
@@ -52,6 +52,6 @@ img{
 }
 
 .meg{
-    max-width: 50px;
-    max-height: 50px;
+    max-width: 100px;
+    max-height: 100px;
 }
