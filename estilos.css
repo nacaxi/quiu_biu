@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
 
 :root{
-    --cabecalho: #52b7e6;
-    --cor-de-fundo: #94d7da;
+    --cabecalho: #a7ffff;
+    --cor-de-fundo: #daffff;
     --cor-de-texto: rgb(0, 0, 0);
     --cor-de-borda: rgb(0, 0, 0);
 }
