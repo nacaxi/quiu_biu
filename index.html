@@ -9,6 +9,8 @@
     <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
     <link rel="manifest" href="favicon/site.webmanifest">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+
 </head>
 <body>
     <header>
@@ -24,6 +26,36 @@
             <div class="imagem"><img src="imagens/retro1.jpg" alt="namorado"></div>
             <p>Se não fosse aquelas malucas do CAGEO, a nossa história talvez nem tivesse começado, apesar de que eu estava criando coragem de ir falar com você em algum momento. Foi naquele dia que a minha vida mudou completamente pra melhor e eu nunca vou me esquecer disso. Tirando aquela feia da Thaynara, eu sou muito grato pela caça ao tesouro do CAGEO.</p>
         </section>
+      <section class="carrossel">
+        <h2 class="carrossel__titulo">MAIS FOTINHAS</h2>
+        <div class="carrossel__container">
+            <div class="swiper">
+                <div class="swiper-pagination"></div>
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="imagens/foto1.jpg"></div>
+                    <div class="swiper-slide"><img src="imagens/foto1.jpg"></div>
+                    <div class="swiper-slide"><img src="imagens/foto1.jpg"></div>
+                    <div class="swiper-slide"><img src="imagens/foto1.jpg"></div>
+                    <div class="swiper-slide"><img src="imagens/foto1.jpgg"></div>
+                    <div class="swiper-slide"><img src="imagens/foto1.jpg"></div>
+                    <div class="swiper-slide"><img src="imagens/foto1.jpg"></div>
+                    <div class="swiper-slide"><img src="imagens/foto1.jpg"></div>
+                </div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+    </section>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+            spaceBetween: 10,
+            slidesPerView: 3,
+            pagination: {
+                el: '.swiper-pagination',
+                type: 'bullets',
+            },
+        });
+    </script>
         <section id="declaração">
             <h2>A SURRA NA AMÊNDOA 💃🪭</h2>
             <p>Namorar um homem tão especial quanto você é a minha maior conquista. Eu gosto muito de cada pedacinho teu. Desculpa por ser chatonildo às vezes, eu amo muito ter você por perto e você é o melhor homem do universo inteirinho. Sou muito grato por ter você em minha vida. Obrigado por me ajudar a levantar a cabeça e seguir em frente, obrigado por todos os momentos em que eu estava triste e você me fez rir, obrigado por cada momento, obrigado por estar comigo, obrigado por tudo.</p>
